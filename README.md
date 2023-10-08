@@ -1,7 +1,26 @@
-# EncryptHorizon
+```
+███████╗███╗   ██╗ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗██╗  ██╗ ██████╗ ██████╗ ██╗███████╗ ██████╗ ███╗   ██╗    ██╗   ██╗ ██╗   ██╗
+██╔════╝████╗  ██║██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██║  ██║██╔═══██╗██╔══██╗██║╚══███╔╝██╔═══██╗████╗  ██║    ██║   ██║███║  ███║
+█████╗  ██╔██╗ ██║██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ███████║██║   ██║██████╔╝██║  ███╔╝ ██║   ██║██╔██╗ ██║    ██║   ██║╚██║  ╚██║
+██╔══╝  ██║╚██╗██║██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ██╔══██║██║   ██║██╔══██╗██║ ███╔╝  ██║   ██║██║╚██╗██║    ╚██╗ ██╔╝ ██║   ██║
+███████╗██║ ╚████║╚██████╗██║  ██║   ██║   ██║        ██║   ██║  ██║╚██████╔╝██║  ██║██║███████╗╚██████╔╝██║ ╚████║     ╚████╔╝  ██║██╗██║
+╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝      ╚═══╝   ╚═╝╚═╝╚═╝
+```
+
+-------------------------------------------------------------------------------------
+
 A simple but effective script to encrypt a file or a whole directory in Windows.
 
 The Windows Defender is totally unable to detect the ongoing encryption as a threat. It is also unable to detect the encrypted files as a threat. So you can encrypt/decrypt your files without any problems.
+
+## Roadmap
+- [x] Encrypt files
+- [x] Encrypt directories
+- [x] Decrypt files
+- [x] Decrypt directories
+- [X] User-friendly decryption screen
+- [ ] Disable important keys (e.g. F1-12, CTRL, ALT, SUPER, etc.)
+- [ ] Disable important key combinations (e.g. CTRL+ALT+DEL, ALT+F4, etc.)
 
 ## How it works
 
