@@ -15,7 +15,7 @@
 
 # Usage:
 # Load the script in PowerShell and use the EncryptHorizon function
-# . .\encrypter.ps1
+# . .\EncryptHorizon.ps1
 
 # Now you can use the EncryptHorizon function
 # EncryptHorizon -action <Encrypt|Decrypt> [-path <path>]
