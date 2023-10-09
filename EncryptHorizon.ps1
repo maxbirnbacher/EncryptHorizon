@@ -67,8 +67,14 @@ function EncryptOrDecryptFolder($folderPath, $action, $key) {
 
         # Process each file
         foreach ($file in $files) {
-            # Encrypt or decrypt the file
-            EncryptOrDecryptFile $file.FullName $action $key
+            # Check if the file is the red flag file and abort the encryption process if it is
+            if ($file.Name -eq $redFlagFile) {
+                Write-Host "Aborting encryption process. Found $redFlagFile"
+                return
+            } else {
+                # Encrypt or decrypt the file
+                EncryptOrDecryptFile $file.FullName $action $key
+            }
         }
 
         # Recursively process subfolders
