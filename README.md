@@ -13,6 +13,13 @@ A simple but effective script to encrypt a file or a whole directory in Windows.
 
 The Windows Defender is totally unable to detect the ongoing encryption as a threat. It is also unable to detect the encrypted files as a threat. So you can encrypt/decrypt your files without any problems.
 
+Works with:
+- Files
+- Directories
+- Subdirectories
+- Remote shares mapped as drives
+- UNC paths
+
 ## Roadmap
 - [x] Encrypt files
 - [x] Encrypt directories
