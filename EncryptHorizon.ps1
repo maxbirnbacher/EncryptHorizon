@@ -11,7 +11,7 @@
 # This script is modifying the Invoke-AESEncryption function from DRTools
 # It is intended to encrypt any file or folder that is specified in the input
 # If the script finds a file that is matching a specific name, it will not be encrypted
-# Everything else will be encrypted. Muhahahaha!!!! (do not use this script for evil purposes (there are probably bether tools out there) ;-) )
+# Everything else will be encrypted. Muhahahaha!!!! (do not use this script for evil purposes (there are probably better tools out there) ;-) )
 
 # Usage:
 # Load the script in PowerShell and use the EncryptHorizon function
