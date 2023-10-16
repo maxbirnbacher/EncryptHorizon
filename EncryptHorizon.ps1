@@ -125,7 +125,7 @@ function EncryptHorizon {
 
         # Create a label to display the message
         $messageLabel = New-Object System.Windows.Forms.Label
-        $messageLabel.Text = "EncryptHorizon v1.1`nPlease enter the decryption key:"
+        $messageLabel.Text = "EncryptHorizon v1.2`nPlease enter the decryption key:"
         $messageLabel.Font = New-Object System.Drawing.Font("Arial", 24, [System.Drawing.FontStyle]::Bold)
         $messageLabel.ForeColor = [System.Drawing.Color]::White
         $messageLabel.AutoSize = $true
